@@ -18,11 +18,12 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: joeygeofrey/test:6
+      - image: joeygeofrey/test:5
         name: flaskdemo
         resources: {}
 status: {}
 ---
+
 apiVersion: v1
 kind: Service
 metadata:
