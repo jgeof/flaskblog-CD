@@ -18,7 +18,7 @@ spec:
         app: flaskblog
     spec:
       containers:
-      - image: joeygeofrey/fblog:1
+      - image: joeygeofrey/fblog:4
         name: flaskblog
         resources: {}
 status: {}
